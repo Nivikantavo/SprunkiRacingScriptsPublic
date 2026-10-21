@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3e1a9b4d2f4e6a8b0c1d2e3f4a5b6c, type: 3}
+  m_Name: Sharpshooter
+  m_EditorClassIdentifier: Assembly-CSharp::SprunkiRacing.BotProfile
+  goal: 1
+  aggression: 0.7
+  intelligence: 0.85
+  accuracy: 0.96
+  reactionDelay: 0.2
+  lookahead: 18
+  ammoThreshold: 50
+  missileThreshold: 3
+  fuelThreshold: 18
+  healthThreshold: 50
+  maxDetour: 14
+  fireRange: 70
+  fireCone: 8
+  shotDelay: 0.95
+  machineGunBurst: 5
+  steerNoise: 0
+  chaseWeight: 0.22
+  ramBias: 0
+  useNitroOnStraight: 1
+  leadShots: 0
+  nitroChance: 0

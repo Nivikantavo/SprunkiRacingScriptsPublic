@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eb006f719294e74faee951df28c1fc1, type: 3}
+  m_Name: CurrencyShopConfig
+  m_EditorClassIdentifier: Assembly-CSharp::SprunkiRacing.CurrencyShopConfig
+  reward:
+    title:
+      m_TableReference:
+        m_TableCollectionName: GUID:37813ed0ac7627444bb11334c28a6081
+      m_TableEntryReference:
+        m_KeyId: 346540055977988
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    coins: 100
+    icon: {fileID: 21300000, guid: 1d6f50ae6c6cc4fda8bf9faa2f0fd73c, type: 3}
+    dailyViewLimit: 5
+    placement: shop_coins
+    adIcon: {fileID: 21300000, guid: 6ddf606152f8e425392350d1830aabbd, type: 3}
+  packs:
+  - productId: coins_500
+    title:
+      m_TableReference:
+        m_TableCollectionName: GUID:37813ed0ac7627444bb11334c28a6081
+      m_TableEntryReference:
+        m_KeyId: 346540030812160
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    coins: 500
+    icon: {fileID: 21300000, guid: 1db8bbd11d5de49abbef16b386788c34, type: 3}
+    fallbackPrice: $0.99
+    isBest: 0
+    isPopular: 0
+  - productId: coins_1000
+    title:
+      m_TableReference:
+        m_TableCollectionName: GUID:37813ed0ac7627444bb11334c28a6081
+      m_TableEntryReference:
+        m_KeyId: 346540055977984
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    coins: 1000
+    icon: {fileID: 21300000, guid: 9d199644d1b294b0788d014ddbfe0050, type: 3}
+    fallbackPrice: $1.79
+    isBest: 0
+    isPopular: 1
+  - productId: coins_2000
+    title:
+      m_TableReference:
+        m_TableCollectionName: GUID:37813ed0ac7627444bb11334c28a6081
+      m_TableEntryReference:
+        m_KeyId: 346540055977985
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    coins: 2000
+    icon: {fileID: 21300000, guid: 7c8893a146119407fbdebaff1123ff55, type: 3}
+    fallbackPrice: $2.59
+    isBest: 0
+    isPopular: 0
+  - productId: coins_4000
+    title:
+      m_TableReference:
+        m_TableCollectionName: GUID:37813ed0ac7627444bb11334c28a6081
+      m_TableEntryReference:
+        m_KeyId: 346540055977986
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    coins: 4000
+    icon: {fileID: 21300000, guid: 6ebca470ee93947c3b5e56e9abf33e5f, type: 3}
+    fallbackPrice: $2.99
+    isBest: 0
+    isPopular: 0
+  - productId: coins_10000
+    title:
+      m_TableReference:
+        m_TableCollectionName: GUID:37813ed0ac7627444bb11334c28a6081
+      m_TableEntryReference:
+        m_KeyId: 346540055977987
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    coins: 10000
+    icon: {fileID: 21300000, guid: 6f7cf9eabe95e4550bf1c5033c4fac6f, type: 3}
+    fallbackPrice: $5.99
+    isBest: 1
+    isPopular: 0
+  references:
+    version: 2
+    RefIds: []

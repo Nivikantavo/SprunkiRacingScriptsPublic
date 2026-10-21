@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f8c2a91b6e74d3a8c1f0e5d7b2a9461, type: 3}
+  m_Name: Dark
+  m_EditorClassIdentifier: Assembly-CSharp::SprunkiRacing.TrailConfig
+  displayName:
+    m_TableReference:
+      m_TableCollectionName: GUID:37813ed0ac7627444bb11334c28a6081
+    m_TableEntryReference:
+      m_KeyId: 89779264806912
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  preview: {fileID: -2101823735, guid: 8189f4f171ae40f4b845a0ca6374864b, type: 3}
+  prefab: {fileID: 8597731318025692521, guid: ae6bdf3417a5d6047a559654858dac31, type: 3}
+  unlockedByDefault: 0
+  price: 500
+  references:
+    version: 2
+    RefIds: []

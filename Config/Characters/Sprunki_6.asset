@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c4e1a9b2d8f4e6a9c0b1d3e5f7a8b21, type: 3}
+  m_Name: Sprunki_6
+  m_EditorClassIdentifier: Assembly-CSharp::SprunkiRacing.CharacterConfig
+  displayName:
+    m_TableReference:
+      m_TableCollectionName: GUID:37813ed0ac7627444bb11334c28a6081
+    m_TableEntryReference:
+      m_KeyId: 100051
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  preview: {fileID: 21300000, guid: baf425f899b6fb940abf8a06fda06acf, type: 3}
+  lowHealthPreview: {fileID: 21300000, guid: 29ba4bbf40ac63347bf62be38f6b7b34, type: 3}
+  rallyCar: {fileID: 2562201005859748346, guid: 28761fca4d5d3294b8e0a6aabb942a2a, type: 3}
+  monsterTruck: {fileID: 6427170892799220418, guid: c243e5caa7e715c40b7c186b19a33d0a, type: 3}
+  unlockedByDefault: 0
+  price: 500
+  references:
+    version: 2
+    RefIds: []

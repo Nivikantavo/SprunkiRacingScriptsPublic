@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3e1a9b4d2f4e6a8b0c1d2e3f4a5b6c, type: 3}
+  m_Name: Aggressive
+  m_EditorClassIdentifier: Assembly-CSharp::SprunkiRacing.BotProfile
+  goal: 1
+  aggression: 0.9
+  intelligence: 0.45
+  accuracy: 0.55
+  reactionDelay: 0.15
+  lookahead: 12
+  ammoThreshold: 30
+  missileThreshold: 2
+  fuelThreshold: 12
+  healthThreshold: 50
+  maxDetour: 22
+  fireRange: 48
+  fireCone: 16
+  shotDelay: 0.75
+  machineGunBurst: 8
+  steerNoise: 0.05
+  chaseWeight: 0.4
+  ramBias: 0.2
+  useNitroOnStraight: 1
+  leadShots: 0
+  nitroChance: 0

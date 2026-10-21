@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3e1a9b4d2f4e6a8b0c1d2e3f4a5b6c, type: 3}
+  m_Name: Dumb
+  m_EditorClassIdentifier: Assembly-CSharp::SprunkiRacing.BotProfile
+  goal: 2
+  aggression: 0.498
+  intelligence: 0.15
+  accuracy: 0.2
+  reactionDelay: 0.85
+  lookahead: 8
+  ammoThreshold: 0
+  missileThreshold: 0
+  fuelThreshold: 0
+  healthThreshold: 0
+  maxDetour: 6
+  fireRange: 32
+  fireCone: 55
+  shotDelay: 1.05
+  machineGunBurst: 4
+  steerNoise: 0.4
+  chaseWeight: 0.3
+  ramBias: 0.9
+  useNitroOnStraight: 0
+  leadShots: 0
+  nitroChance: 0.35

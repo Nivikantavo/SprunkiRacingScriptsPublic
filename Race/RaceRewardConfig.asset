@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e8a17b2d6f4a93b5e1c0d8f7a34620, type: 3}
+  m_Name: RaceRewardConfig
+  m_EditorClassIdentifier: Assembly-CSharp::SprunkiRacing.RaceRewardConfig
+  places:
+  - trophies: 20
+    coins: 100
+  - trophies: 15
+    coins: 75
+  - trophies: 10
+    coins: 50
+  - trophies: 5
+    coins: 40
+  - trophies: 0
+    coins: 30
+  - trophies: -5
+    coins: 20
+  - trophies: -10
+    coins: 10
+  - trophies: -15
+    coins: 5
+  trophiesPerKill: 1
+  coinsPerKill: 10

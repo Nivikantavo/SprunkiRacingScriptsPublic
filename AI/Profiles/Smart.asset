@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3e1a9b4d2f4e6a8b0c1d2e3f4a5b6c, type: 3}
+  m_Name: Smart
+  m_EditorClassIdentifier: Assembly-CSharp::SprunkiRacing.BotProfile
+  goal: 0
+  aggression: 0.4
+  intelligence: 1
+  accuracy: 0.936
+  reactionDelay: 0.1
+  lookahead: 28
+  ammoThreshold: 80
+  missileThreshold: 6
+  fuelThreshold: 35
+  healthThreshold: 50
+  maxDetour: 16
+  fireRange: 36
+  fireCone: 12
+  shotDelay: 1.25
+  machineGunBurst: 6
+  steerNoise: 0
+  chaseWeight: 0.3
+  ramBias: 0
+  useNitroOnStraight: 1
+  leadShots: 0
+  nitroChance: 0

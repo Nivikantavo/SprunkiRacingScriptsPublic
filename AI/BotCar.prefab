@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &810000
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 198737313120763438, guid: 0aca9bb2e5c9c4145bf0d89014822e93, type: 3}
+      propertyPath: m_Name
+      value: BotCar
+      objectReference: {fileID: 0}
+    - target: {fileID: 198737313120763600, guid: 0aca9bb2e5c9c4145bf0d89014822e93, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610736568934560235, guid: 0aca9bb2e5c9c4145bf0d89014822e93, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 198737313120763438, guid: 0aca9bb2e5c9c4145bf0d89014822e93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 810001}
+    - targetCorrespondingSourceObject: {fileID: 198737313120763438, guid: 0aca9bb2e5c9c4145bf0d89014822e93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 810002}
+    - targetCorrespondingSourceObject: {fileID: 198737313120763438, guid: 0aca9bb2e5c9c4145bf0d89014822e93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 810003}
+    - targetCorrespondingSourceObject: {fileID: 198737313120763438, guid: 0aca9bb2e5c9c4145bf0d89014822e93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 810004}
+  m_SourcePrefab: {fileID: 100100000, guid: 0aca9bb2e5c9c4145bf0d89014822e93, type: 3}
+--- !u!1 &810010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 198737313120763438, guid: 0aca9bb2e5c9c4145bf0d89014822e93, type: 3}
+  m_PrefabInstance: {fileID: 810000}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &810001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 810000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d4f2b0c5e3a4f7b9c1d2e3f4a5b6c7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SprunkiRacing.BotBrain
+  profile: {fileID: 0}
+  cornerLateralAccel: 46
+  cornerMinSpeed: 82
+  coastOverSpeed: 20
+  cornerBrake: 0.22
+  laneHalfWidth: 5
+  laneDriftSpeed: 1.5
+--- !u!114 &810002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 810000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e5a3c1d6f4b4a8c0d2e3f4a5b6c7d8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SprunkiRacing.BotDriver
+--- !u!114 &810003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 810000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a7c5e3f8b6d4c0e2f4a5b6c7d8e9f0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SprunkiRacing.RaceRacer
+--- !u!114 &810004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 810000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: BehaviorDesigner.Runtime::BehaviorDesigner.Runtime.BehaviorTree

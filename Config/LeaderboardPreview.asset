@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2e9c14a8f54d3e91c0b7a5e2d84f16, type: 3}
+  m_Name: LeaderboardPreview
+  m_EditorClassIdentifier: Assembly-CSharp::SprunkiRacing.LeaderboardPreviewConfig
+  enabled: 0
+  entries:
+  - id: p1
+    displayName: Nova
+    score: 2480
+    language: en
+    characterId: Sprunki_0
+    localPlayer: 0
+  - id: p2
+    displayName: Rift
+    score: 2210
+    language: de
+    characterId: Sprunki_1
+    localPlayer: 0
+  - id: p3
+    displayName: Kite
+    score: 1980
+    language: ja
+    characterId: Sprunki_2
+    localPlayer: 0
+  - id: local
+    displayName: Player
+    score: 1760
+    language: ru
+    characterId: Sprunki_4
+    localPlayer: 1
+  - id: p5
+    displayName: Bolt
+    score: 1540
+    language: fr
+    characterId: Sprunki_3
+    localPlayer: 0
+  - id: p6
+    displayName: Echo
+    score: 1320
+    language: es
+    characterId: Sprunki_6
+    localPlayer: 0
+  - id: p7
+    displayName: Vex
+    score: 980
+    language: ko
+    characterId: Sprunki_7
+    localPlayer: 0
+  - id: p8
+    displayName: Luma
+    score: 640
+    language: pt
+    characterId: Sprunki_8
+    localPlayer: 0
